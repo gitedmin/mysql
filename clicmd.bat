@@ -13,3 +13,5 @@ select 'TABLENAME' as '';
 select count(*) from TABLENAME;
 select 'TABLENAME2' as '';
 select count(*) from TABLENAME2;
+
+exit
