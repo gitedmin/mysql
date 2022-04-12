@@ -1,15 +1,15 @@
-use quickfix_ncdex;
-select 'Messages' as '';
-select count(*) from messages;
-select 'Messages_log' as '';
-select count(*) from messages_log;
+use DBNAME;
+select 'TABLENAME' as '';
+select count(*) from TABLENAME;
+select 'TABLENAME2' as '';
+select count(*) from TABLENAME2;
 
-delete from messages;
-delete from messages_log;
+delete from TABLENAME;
+delete from TABLENAME2;
 select '--------------' as '';
 select 'After deletion' as '';
 
-select 'Messages' as '';
-select count(*) from messages;
-select 'Messages_log' as '';
-select count(*) from messages_log;
+select 'TABLENAME' as '';
+select count(*) from TABLENAME;
+select 'TABLENAME2' as '';
+select count(*) from TABLENAME2;
